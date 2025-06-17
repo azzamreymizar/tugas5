@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+    transition: 0.5s;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar:hover{
+    background-color:  rgb(249 250 251); 
+}
+
+.navbar:hover ul li a{
+    color: rgb(72, 72, 72);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+   background-image: url("https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjg1MDRhNzljZDVjODE5MTk4ZWNjZmNmY2IxNjAwYWY6ZmlsZV8wMDAwMDAwMDA5NmM2MjJmOWRiZjQzODQ1MThhMDZhYyIsInRzIjoiNDg2MTM2IiwicCI6InB5aSIsInNpZyI6ImQzYmI2YjU5ZTk3Njg3NTY3YzRjNjNmMmMwNjNmNmQ1MzZjNTYzN2M0NTA3YWY1NzQzMWIzM2MyODk4N2U5ZDUiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==");
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+h1 {
+    color: #FFFADC;
+    text-align: center;
+    font-size: 65px;
+    font-family: playfair Display;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    background-color: #E9967A;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-top: 18px;
+    color: whitesmoke;
+
+}
+
+button a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+button:hover{
+    background-color:  rgb(249 250 251);
+}
+
+button:hover a {
+    color: rgb(72, 72, 72);
+}
+
+.keterangan {
+    padding: 75px;
+    font-size: 17px;
+}
+
+.contact {
+      max-width: 600px;
+      margin: 50px;
+      background-color: #d9d9d9;
+      border-radius: 20px;
+      height: 450px;
+      padding-right: 20px;
+      padding-top: 35px;
+      padding-left: 35px;
+    }
+
+.contact h2 {
+      font-size: 36px;
+      color: #0b2252;
+      margin-bottom: 30px;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-right: 30px;
+    }
+
+    .contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap; /* agar responsif di layar kecil */
+  padding: 30px;
+}
+
+    /* .contact-item {
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+      padding-right: 90px;
+      padding-left: 20px;
+    } */
+
+    .contact-item i {
+      font-size: 30px;
+      color: #0b2252;
+      margin-right: 16px;
+      align-self: center;
+    }
+    
+
+    .contact-item p {
+      margin: 2px 0;
+      line-height: 1.4;
+      color: black;
+    }
+
+ .title {
+      font-weight: bold;
+      color: #0b2252;
+    }
+
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  background-color: #d9d9d9;
+  min-height: 400px;
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  min-height: 60%;
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  clear: both;
+}
+
+.column {
+  flex: 0 0 30%;
+  margin-bottom: 16px;
+}
+
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #131D4F;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
